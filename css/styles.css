@@ -127,7 +127,7 @@ body {
 @media screen and (max-width:900px ) {
     .caroImage{
         height: 380px;
-        width:480px;
+        width:550!important;
     }
 }
 

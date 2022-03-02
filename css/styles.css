@@ -17,18 +17,54 @@ body {
 
 @media screen and (max-width:1080px) {
     .backgroundContainer{
-        height: 135vw;
+        height: 85vw;
     }
 }
 
 @media screen and (max-width:580px) {
     .backgroundContainer{
+        height: 180vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .backgroundContainer{
         height: 230vw;
+    }
+}
+@media screen and (max-height:420px) {
+    .backgroundContainer{
+        height: 60vw;
     }
 }
 
 .titleContainer{
     width: 100%;
+    height: 65vw;
+}
+
+@media screen and (max-width:1080px) {
+    .titleContainer{
+        height: 85vw;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .titleContainer{
+        height: 180vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .titleContainer{
+        height: 230vw;
+    }
+}
+
+@media screen and (max-height:420px) {
+    .titleContainer{
+        height: 60vw;
+    }
 }
 
 #mainTitle {
@@ -36,9 +72,6 @@ body {
     text-align: center;
     font-family: 'Libre Barcode 39 Text', monospace;
     font-size: 6.5vw;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
     padding: 0;
     opacity: 0%;
     animation: fadein 5s;
@@ -57,7 +90,6 @@ body {
 
 @media screen and (max-width:580px) {
     #mainTitle{
-        color: white;
         font-size: 8vw;
     }
 }
@@ -72,6 +104,12 @@ body {
 #imageCarousel{
     background-color: rgb(29, 29, 29); 
     padding: 4% 0%; 
+}
+
+@media screen and (max-width:420px) {
+    .wideSplide{
+        display: none;
+    }
 }
 
 /*powerPhrase*/
@@ -214,6 +252,7 @@ padding:0;
 }
 
 #footer{
+    margin: 0;
     padding: 7% 0 2%;
     background-color: white;
     text-align: center;

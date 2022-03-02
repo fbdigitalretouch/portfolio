@@ -62,13 +62,15 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </nav>
     
     <!--mainphoto-->
+
     <header id="header">
-    <div class="container-fluid m-0 p-0">
-        
-          <div class="titleContainer">
-            <h1 id="mainTitle">Welcome to My Portfolio</h1>
-                </div>
+    <div class="container-fluid m-auto">
+      <div class="row titleContainer m-0 p-0">
+        <div class="col align-self-center">
+         <h1 id="mainTitle" >Welcome to My Portfolio</h1>
         </div>
+      </div>
+    </div>
     
     </header>
     
@@ -138,7 +140,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   </section>
     
     <!--splidescript-->
-    <script>
+    <script class="wideSplide">
       document.addEventListener('DOMContentLoaded', function () {
         var splide = new Splide('.splide', {
           type: 'loop',
@@ -158,6 +160,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         splide.mount(window.splide.Extensions);
       })
     </script>
+
 
     <!--powerphrase-->
 
@@ -182,8 +185,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!--contactForm-->
     <section id="contactForm">
-      <div class="contactFormContainer">
-        <div class="row">
+      <div class=" contactFormContainer">
+        <div class="row m-0 p-0">
           <div class="col-md-6 align-self-center ColPad">
             <div class="form-group">
               <label for="formGroupExampleInput">👋 Insert Your Name</label>
@@ -205,7 +208,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             <p>You can contact me for hire!</p>
             <p>My number is: +123 456 789 0</p>
             <p>My e-mail address is: fb.digitalretouch@gmail.com</p>
-            <p>My legal address is Secret! <br> But if you need i will tell you.</p>
+            <p>My legal address is Secret! <br> But if you need it, i will tell it you.</p>
            </div> 
           </div>
         </div>
@@ -216,7 +219,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--footer-->
     
  <footer id="footer">  
-    <div class="footer">
+    <div class="footer w-100">
       <p class="icon">
         <i class="fab fa-instagram-square"></i>
         <i class="fab fa-unsplash"></i>

@@ -124,11 +124,12 @@ body {
    
 }
 
-/*@media screen and (max-width:900px ) {
+@media screen and (max-width:900px ) {
     .caroImage{
-        height: 380px!important;
+        height: 380px;
+        width:480px;
     }
-}*/
+}
 
 @media screen and (max-width:680px ) {
     .caroImage{

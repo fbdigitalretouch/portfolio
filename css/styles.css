@@ -95,17 +95,45 @@ body {
 }
 
 .descriptionContainer{
-    padding: 7% 2%;
+    margin: 12% 2% 5%;
     text-align: center;
     font-family:'Quicksand', sans-serif;
     font-size: 3vw;
 }
 
-#imageCarousel{
-    background-color: rgb(29, 29, 29); 
-    padding: 4% 0%; 
+@media screen and (max-width:580px) {
+    .descriptionContainer{
+        margin: 15% 0 5%;
+        padding: 2% 2%;
+        font-size: 5vw;
+        border: 2px solid;
+        border-color: rgba(0, 0, 0, 0.075);
+
+    }
 }
 
+#imageCarousel{
+    background-color: rgb(29, 29, 29); 
+    padding: 5% 0%; 
+    margin-top: 15%;
+
+}
+
+.caroImage{
+    max-height: 600px;
+}
+
+@media screen and (max-width:680px ) {
+    .caroImage{
+        max-height: 250px;
+    }
+}
+
+@media screen and (max-height:420px ) {
+    .caroImage{
+        max-height: 330px;
+    }
+}
 
 /*powerPhrase*/
 
@@ -116,6 +144,12 @@ body {
 }
 
 
+@media screen and (max-width: 580px) {
+    #powerPhrase{
+        padding: 15% 0 5%;
+    }
+}
+
 .image1{
  position: absolute;
  top:-20%;
@@ -125,7 +159,6 @@ body {
 @media screen and (max-width: 580px) {
     .image1{
       display: none;
-       
    }
 }
 
@@ -156,6 +189,13 @@ background-color: rgb(29, 29, 29);
 padding:0;
 }
 
+@media screen and (max-width:580px) {
+    .phraseContainer{
+        position: relative;
+        top: -50px;
+    }
+}
+
 .powerPhraseDescription h2{
     text-align: center;
     padding-top: 9%;
@@ -168,7 +208,7 @@ padding:0;
 
 @media screen and (max-width:580px) {
     .powerPhraseDescription h2 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
  
 }
@@ -186,7 +226,7 @@ padding:0;
 
 @media screen and (max-width:580px) {
     .powerPhraseDescription p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
  
 }

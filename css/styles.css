@@ -130,12 +130,12 @@ body {
     }
 }
 
-/*@media screen and (max-height:420px ) {
+@media screen and (max-height:420px ) {
     .caroImage{
        width:600px;
         
     }
-}*/
+}
 
 /*powerPhrase*/
 

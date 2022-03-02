@@ -2,6 +2,8 @@ body {
     font-family:'Quicksand', sans-serif;
   }
 
+
+ 
 .navbar{
     background-color: rgba(56, 56, 56, 0.555);
 
@@ -9,10 +11,12 @@ body {
 
 
 .backgroundContainer{
+    background-color: rgb(207, 207, 207);
     background-image: url(../images/federico-bottos-G5HzCwu9tVc-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     height: 65vw;
+    animation: fadein 8s;
 }
 
 @media screen and (max-width:1080px) {
@@ -74,7 +78,7 @@ body {
     font-size: 6.5vw;
     padding: 0;
     opacity: 0%;
-    animation: fadein 5s;
+    animation: fadein 1.5s;
     animation-fill-mode: forwards;
     
 }
@@ -120,30 +124,30 @@ body {
 }
 
 .caroImage{
-    height: 600px;
-   
+    
+   height: 800px!important;
 }
 
-@media screen and (max-width:900px ) {
+@media (max-width:1280px ) {
     .caroImage{
-        height: 380px;
-        width:550!important;
+        height:600px!important;
     }
 }
 
-@media screen and (max-width:680px ) {
+@media (max-width:900px ) {
     .caroImage{
-        height: 250px;
-        width:325px;
+        height:380px!important;
     }
 }
 
-/*@media screen and (max-height:420px ) {
+
+
+@media screen and (max-width:420px ) {
     .caroImage{
-       width:600px;
+       height:250px!important;
         
     }
-}*/
+}
 
 /*powerPhrase*/
 

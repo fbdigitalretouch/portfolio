@@ -106,11 +106,6 @@ body {
     padding: 4% 0%; 
 }
 
-@media screen and (max-width:420px) {
-    .wideSplide{
-        display: none;
-    }
-}
 
 /*powerPhrase*/
 

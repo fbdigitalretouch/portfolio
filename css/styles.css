@@ -16,11 +16,11 @@ body {
     background-image: url(../images/federico-bottos-G5HzCwu9tVc-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    height: 65vw;
+    height: 100vh;
     animation: fadein 8s;
 }
 
-@media screen and (max-width:1080px) {
+/*@media screen and (max-width:1080px) {
     .backgroundContainer{
         height: 85vw;
     }
@@ -41,14 +41,14 @@ body {
     .backgroundContainer{
         height: 60vw;
     }
-}
+}*/
 
 .titleContainer{
     width: 100%;
-    height: 65vw;
+    height: 100vh;
 }
 
-@media screen and (max-width:1080px) {
+/*@media screen and (max-width:1080px) {
     .titleContainer{
         height: 85vw;
     }
@@ -70,7 +70,7 @@ body {
     .titleContainer{
         height: 60vw;
     }
-}
+}*/
 
 #mainTitle {
     width: 100%;

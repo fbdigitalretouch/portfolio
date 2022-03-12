@@ -1,0 +1,191 @@
+body {
+    font-family:'Quicksand', sans-serif;
+  }
+
+
+ 
+.navbar{
+    background-color: rgba(56, 56, 56, 0.555);
+
+}
+
+.backgroundContainer{
+    background-color: rgb(207, 207, 207);
+    background-image: url(../images/federico-bottos-ejAz1xfCyNM-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vw;
+    animation: fadein 8s;
+}
+
+@media screen and (max-width:1080px) {
+    .backgroundContainer{
+        height: 85vw;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .backgroundContainer{
+        height: 180vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .backgroundContainer{
+        height: 230vw;
+    }
+}
+@media screen and (max-height:420px) {
+    .backgroundContainer{
+        height: 60vw;
+    }
+}
+
+.titleContainer{
+    width: 100%;
+    height: 65vw;
+}
+
+@media screen and (max-width:1080px) {
+    .titleContainer{
+        height: 85vw;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .titleContainer{
+        height: 180vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .titleContainer{
+        height: 230vw;
+    }
+}
+
+@media screen and (max-height:420px) {
+    .titleContainer{
+        height: 60vw;
+    }
+}
+
+
+#mainTitle {
+    width: 100%;
+    text-align: center;
+    font-family: 'Libre Barcode 39 Text', monospace;
+    font-size: 6.5vw;
+    padding: 0;
+    opacity: 0%;
+    animation: fadein 1.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+@media screen and (max-width:580px) {
+    #mainTitle{
+        font-size: 8vw;
+    }
+}
+
+.thumbnailImageVertical{
+    width: 25vw;
+    margin: 5%;
+}
+@media screen and (max-width:768px) {
+
+    .thumbnailImageVertical{
+        width: 65vw;
+    }
+    
+}
+
+.thumbnailImageHorizontal{
+    width: 25vw;
+    margin: 5%;
+}
+
+@media screen and (max-width:768px) {
+
+    .thumbnailImageHorizontal{
+        width: 35vh;
+    }
+    
+}
+
+.descriptionContainer{
+    margin: 12% 2% 12%;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    font-size: 3vw;
+}
+
+@media screen and (max-width:580px) {
+    .descriptionContainer{
+        margin: 15% 0 5%;
+        padding: 2% 2%;
+        font-size: 5vw;
+        border: 2px solid;
+        border-color: rgba(0, 0, 0, 0.075);
+
+    }
+}
+
+.close{
+    color: white;
+    opacity: 1;
+}
+
+.modal-content{
+    background-color: transparent;
+}
+
+   /*height for the horizontal image body container*/
+.horizontal{
+    
+    max-width: 65vw;
+    margin: auto;
+}
+
+.borderNone{
+    border: none 
+}
+
+.show, .fade, .modal{
+    background-color: rgba(39, 39, 39, 0.897);
+}
+
+.modal-title{
+    font-family:'Quicksand', sans-serif;
+    color: white;
+}
+
+#footer{
+    margin: 0;
+    padding: 7% 0 2%;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.fab{
+    text-align: center;
+    font-size: 35px;
+    padding: 0% 1% 2%;
+}
+
+.fab:hover{
+    color: rgb(90, 90, 90);
+}
+

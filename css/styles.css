@@ -126,18 +126,18 @@ body {
 
 .caroImage{
     
-   height: 800px!important;
+   max-height: 35vh;
 }
 
-@media (max-width:1280px ) {
+/*@media (max-width:1280px ) {
     .caroImage{
-        height:600px!important;
+        height:600px;
     }
 }
 
 @media (max-width:900px ) {
     .caroImage{
-        height:380px!important;
+        height:380px;
     }
 }
 
@@ -145,10 +145,10 @@ body {
 
 @media screen and (max-width:420px ) {
     .caroImage{
-       height:250px!important;
+       max-height:250px;
         
     }
-}
+}*/
 
 /*powerPhrase*/
 

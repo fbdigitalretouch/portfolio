@@ -16,7 +16,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: fadein 8s;
+    animation: fadein 5s;
 }
 
 /*@media screen and (max-width:1080px) {
@@ -152,11 +152,23 @@ body {
 }
 
    /*height for the horizontal image body container*/
-.horizontal{
-    
+.horizontal{  
     max-width: 65vw;
     margin: auto;
 }
+
+@media screen and (max-width:420px) {
+    .horizontal{
+        max-width: 95vw;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .close, .modal-title, .modal-header, .modal-footer  {
+        display:none;
+    }
+}
+
 
 .borderNone{
     border: none 
@@ -165,6 +177,7 @@ body {
 .show, .fade, .modal{
     background-color: rgba(39, 39, 39, 0.897);
 }
+
 
 .modal-title{
     font-family:'Quicksand', sans-serif;

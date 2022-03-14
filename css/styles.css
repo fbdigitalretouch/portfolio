@@ -17,7 +17,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: fadein 8s;
+    animation: fadein 5s;
 }
 
 /*@media screen and (max-width:1080px) {

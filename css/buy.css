@@ -1,0 +1,199 @@
+body {
+    font-family:'Quicksand', sans-serif;
+  }
+
+
+ 
+.navbar{
+    background-color: rgba(56, 56, 56, 0.555);
+
+}
+
+.backgroundContainer{
+    background-color: rgb(207, 207, 207);
+    background-image: url(../images/robin-schreiner-YKE4zTW5lic-unsplash_white.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: fadein 5s;
+}
+
+.titleContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width:560px){
+    .titleContainer{
+        height: 95vh;
+    }
+}
+
+#mainTitle {
+    width: 100%;
+    text-align: center;
+    font-family: 'Libre Barcode 39 Text', monospace;
+    font-size: 6.5vw;
+    padding: 0;
+    opacity: 0%;
+    animation: fadein 1.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+@media screen and (max-width:580px) {
+    #mainTitle{
+        font-size: 8vw;
+    }
+}
+
+.printTitleBox{
+    margin: 7vh auto;
+}
+
+.printTitle{
+    text-align: center;
+
+}
+
+#cardBuy{
+    margin: 5% auto 0%;
+    width: 80vw;
+    
+}
+
+@media screen and (max-width: 800px){
+    #cardBuy{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #cardBuy{
+        width: 95vw;
+    }
+}
+
+.card{
+    text-align: center;
+    margin: 5% auto 0%;
+}
+
+.cardSpace{
+    margin: 5% auto 0%;
+}
+
+.card-title{
+    padding: 2% auto;
+}
+
+.customCard{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+#help{
+background-color: rgb(29, 29, 29);
+margin: 5% 0;
+}
+
+.helpBox{
+    width: 85vw;
+    margin:auto;
+    padding: 5vh 0;
+}
+
+.helpTitle{
+    text-align: center;
+    color: white;
+}
+
+.helpParagraph{
+    text-align: center;
+    color: white;
+}
+
+#contactForm{
+    background-color: rgb(29, 29, 29);
+}
+.contactFormContainer{
+    padding: 2%;
+}
+
+.contactFormContainer .row{
+    color: white;
+}
+
+.form-group{
+    border-radius: 0deg;
+}
+
+.descriptionForm{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.descriptionForm h2{
+    text-align: center;
+    margin: 0;
+   
+    width: 100%;
+    font-family: 'Libre Barcode 39 Text', monospace;
+    font-size: 6.5vw;
+}
+
+@media screen and (max-width:580px) {
+    .descriptionForm h2 {
+        font-size: 10vw;
+        padding-top: 7%;
+    }
+}
+
+.descriptionForm p{
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    padding: 2%;
+
+}
+
+@media screen and (min-width:980px) {
+    .descriptionForm p {
+        padding: 1.5%;
+    }
+}
+@media screen and (min-width:1080px) {
+    .descriptionForm p {
+        padding: 1%;
+    }
+}
+
+
+#footer{
+    margin: 0;
+    padding: 7% 0 2%;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.fab{
+    text-align: center;
+    font-size: 35px;
+    padding: 0% 1% 2%;
+}
+
+.fab:hover{
+    color: rgb(90, 90, 90);
+}
+

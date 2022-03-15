@@ -170,6 +170,14 @@ padding:0;
 
 }
 
+@media screen and (orientation:portrait) {
+
+    .phBox{
+        text-align: center;
+    }
+
+}
+
 #works{
     margin: 7% auto;
 }
@@ -178,6 +186,14 @@ padding:0;
     width: 85vw;
     margin: auto;
     border: 2px solid #101113;
+}
+
+@media screen and (orientation:portrait) {
+
+    .worksBox{
+        text-align: center;
+    }
+
 }
 
 

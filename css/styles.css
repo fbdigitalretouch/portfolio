@@ -126,28 +126,28 @@ body {
 
 .caroImage{
     
-   max-height: 70vh;
-   height: 70vh;
+   max-height: 70vh !important;
+   height: 70vh !important;
 }
 
 @media (max-width:1280px ) {
     .caroImage{
-        max-height:60vh;
-        height:60vh
+        max-height:60vh !important;
+        height:60vh !important;
     }
 }
 
 @media (max-width:900px ) {
     .caroImage{
-        max-height:45vh;
-        height:45vh;
+        max-height:45vh !important;
+        height:45vh !important;
     }
 }
 
 @media (max-width:560px) {
     .caroImage{
-        max-height: 35vh;
-        height: 35vh;
+        max-height: 35vh !important;
+        height: 35vh !important;
     }
     
 }

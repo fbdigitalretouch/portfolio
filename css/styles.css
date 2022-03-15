@@ -128,12 +128,14 @@ body {
     
    max-height: 70vh !important;
    height: 70vh !important;
+   aspect-ratio: 3/2;
 }
 
 @media (max-width:1280px ) {
     .caroImage{
         max-height:60vh !important;
         height:60vh !important;
+        aspect-ratio: 3/2;
     }
 }
 
@@ -141,6 +143,7 @@ body {
     .caroImage{
         max-height:45vh !important;
         height:45vh !important;
+        aspect-ratio: 3/2;
     }
 }
 
@@ -148,6 +151,7 @@ body {
     .caroImage{
         max-height: 35vh !important;
         height: 35vh !important;
+        aspect-ratio: 3/2;
     }
     
 }

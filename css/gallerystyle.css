@@ -163,7 +163,7 @@ body {
     }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width:920px) and (orientation: landscape) {
     .close, .modal-title, .modal-header, .modal-footer  {
         display:none;
     }

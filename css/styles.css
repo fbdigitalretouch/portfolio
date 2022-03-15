@@ -127,23 +127,27 @@ body {
 .caroImage{
     
    max-height: 70vh;
+   height: 70vh;
 }
 
 @media (max-width:1280px ) {
     .caroImage{
         max-height:60vh;
+        height:60vh
     }
 }
 
 @media (max-width:900px ) {
     .caroImage{
         max-height:45vh;
+        height:45vh;
     }
 }
 
 @media (max-width:560px) {
     .caroImage{
         max-height: 35vh;
+        height: 35vh;
     }
     
 }

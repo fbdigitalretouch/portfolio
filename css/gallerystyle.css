@@ -174,7 +174,7 @@ body {
     border: none 
 }
 
-.show, .fade, .modal{
+.fade, .modal{
     background-color: rgba(39, 39, 39, 0.897);
 }
 
